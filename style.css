@@ -95,17 +95,19 @@ body {
     height: 12px;
     border-radius: 2px;
     -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-    /* -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc; */
+     -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc; 
     box-shadow: 0 1px 0px #bebbb9 inset;
 }
 
 .bar {
+	width: 0;
     height: 10px;
     margin-top: 1px;
     position: absolute;
     border-radius: 2px;
     -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
     -webkit-box-shadow: 0 1px 0px #bebbb9;
+	transition: width 1.7s ease;
 }
 
 .gray-bar {
@@ -118,25 +120,25 @@ body {
 }
 
 .html-css {
-    width: 90%;
+/*    width: 90%;*/
     -moz-animation: graphic-design 2s ease-out;
     -webkit-animation: graphic-design 2s ease-out;
 }
 
 .angular {
-    width: 55%;
+/*    width: 55%;*/
     -moz-animation: graphic-design 2s ease-out;
     -webkit-animation: graphic-design 2s ease-out;	
 }
 
 .graphic-design {
-    width: 70%;
+/*    width: 70%;*/
     -moz-animation: graphic-design 2s ease-out;
     -webkit-animation: graphic-design 2s ease-out;
 }
 
 .backend {
-    width: 70%;
+/*    width: 70%;*/
     -moz-animation: graphic-design 2s ease-out;
     -webkit-animation: graphic-design 2s ease-out;
 }
